@@ -57,3 +57,55 @@ body {
   font-size: 0.9rem;
   color: #7f8c8d;
 }
+
+
+
+.pokemon-card {
+  background: #fffbea; /* fons clar amb toc groguenc */
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pokemon-image {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-bottom: 16px;
+}
+
+.pokemon-info {
+  background: #fff3b0; /* groc suau per acompanyar el tipus elèctric */
+  border-radius: 12px;
+  padding: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+.pokemon-name {
+  font-family: 'Comic Sans MS', cursive;
+  color: #f39c12; /* groc fosc estil llampec */
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+.pokemon-type {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.pokemon-type.electric {
+  color: #f1c40f; /* groc intens per tipus elèctric */
+}
+
+.pokemon-description {
+  font-size: 0.9rem;
+  color: #7f8c8d;
+}
