@@ -1,0 +1,55 @@
+.pokemon-card {
+    background-color: #f0f0f0; /* gris clar */
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* ombra suau */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .pokemon-image {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-bottom: 16px;
+  }
+  
+  .pokemon-info {
+    background-color: #d4edda; /* verd clar */
+    border-radius: 12px;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  
+  .pokemon-name {
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* estil distintiu */
+    color: #2c3e50; /* color fosc per contrastar */
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .pokemon-type {
+    color: #2ecc71; /* verd per a tipus planta */
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .pokemon-type.poison {
+    color: #9b59b6; /* morat per a tipus verí */
+  }
+  
+  .pokemon-description {
+    font-size: 0.9rem;
+    color: #7f8c8d; /* gris clar */
+    text-align: center;
+  }
+  
